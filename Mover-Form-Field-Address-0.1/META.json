@@ -1,0 +1,50 @@
+{
+   "abstract" : "Address Field for the mover project.",
+   "author" : [
+      "Austin Kenny <aibistin.cionnaith@gmail.com>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.300030, CPAN::Meta::Converter version 2.120921",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Mover-Form-Field-Address",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.30"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "HTML::FormHandler::Field::Compound" : "0",
+            "HTML::FormHandler::Moose" : "0",
+            "HTML::FormHandler::Types" : "0",
+            "Moose::Util::TypeConstraints" : "0",
+            "Regexp::Common" : "0",
+            "namespace::autoclean" : "0"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Data::Dump" : "0",
+            "ExtUtils::MakeMaker" : "0",
+            "File::Find" : "0",
+            "File::Spec::Functions" : "0",
+            "File::Temp" : "0",
+            "HTML::FormHandler::Test" : "0",
+            "List::Util" : "0",
+            "Test::More" : "0",
+            "strict" : "0",
+            "warnings" : "0"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "version" : "0.1"
+}
+
