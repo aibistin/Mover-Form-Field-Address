@@ -10,19 +10,18 @@ use File::Spec::Functions;
 use List::Util qw/max/;
 
 my @modules = qw(
+  Capture::Tiny
   Data::Dump
   ExtUtils::MakeMaker
-  File::Find
   File::Spec::Functions
   File::Temp
-  HTML::FormHandler::Field::Compound
-  HTML::FormHandler::Moose
+  HTML::FormHandler::Moose::Role
   HTML::FormHandler::Test
   HTML::FormHandler::Types
   List::Util
-  Moose::Util::TypeConstraints
-  Regexp::Common
+  Modern::Perl
   Test::More
+  blib
   namespace::autoclean
   strict
   warnings

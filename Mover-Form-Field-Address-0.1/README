@@ -1,11 +1,13 @@
 NAME
-    Mover::Form::Field::Address - Address Field for the mover project.
+    Mover::Form::Role::Address - Address Field for the mover project.
 
 VERSION
     version 0.1
 
   options_state
   Builds the Options for US states. (NY New York,  AL Alabama etc).
+  validate_zip
+ Called automatically to validate Zip Code using Regexp::Common qw/zip/.
 AUTHOR
     Austin Kenny <aibistin.cionnaith@gmail.com>
 
