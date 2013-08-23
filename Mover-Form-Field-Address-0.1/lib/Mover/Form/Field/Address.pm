@@ -8,7 +8,7 @@
 package Mover::Form::Role::Address;
 # ABSTRACT: Address Field for the mover project.
 
-use Modern::Perl qw/2012/;
+use Modern::Perl;
 use HTML::FormHandler::Moose::Role;
 use namespace::autoclean;
 
